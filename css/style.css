@@ -1,0 +1,62 @@
+html, body{
+	height: 98%;
+	width: 99%;
+}	
+.wrapper{
+	height: 100%;
+	width: 100%;
+	border: 1px solid black;
+}		
+.header{
+	height: 10%;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+.header h2 {
+	margin-left: 200px;
+	margin-bottom: 8px;
+}
+.headerTitle{
+	float: right;
+	margin-right: 8%;
+	margin-top: -1.5%;
+	font-size: 1.4em;
+}		
+.nav{
+	height: 8%;
+	width: 100%;
+	border-bottom: 1px solid black;
+}
+.content{
+	height: 55%;
+	width: 80%;
+	border: 1px solid black;
+	margin-left: 10%;
+	margin-top: 4%;
+	text-align: center;
+}
+.footer{
+	height: 8%;
+	width: 100%;
+	margin-top: 5.5%;
+	border-top: 1px solid black;
+}
+.navContent{
+	height: 100%;
+	width: 15%;
+	float: left;
+	background-color: #144657;
+	color: #BABABA;
+	margin-left: 21%;
+	cursor: pointer;
+	font-size: 1.4em;
+	text-align: center;
+	line-height: 70px;
+}
+.navContent:hover{
+	color: #FFFFFF;
+}
+.exit{
+	margin-left: 95%;
+	margin-top: 1%;
+}
