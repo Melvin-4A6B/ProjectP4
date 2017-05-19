@@ -1,5 +1,5 @@
 html, body{
-	height: 98%;
+	height: 99%;
 	width: 99%;
 }	
 .wrapper{
@@ -34,6 +34,7 @@ html, body{
 	margin-left: 10%;
 	margin-top: 4%;
 	text-align: center;
+	overflow: auto;
 }
 .footer{
 	height: 8%;
