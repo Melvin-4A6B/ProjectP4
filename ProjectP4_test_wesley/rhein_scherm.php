@@ -25,7 +25,11 @@
 						include("rhein_scherm_functies.php");
 						$opdrachten = getAlleGegevens();
 						foreach($opdrachten as $opdracht){
-						echo "<option value='". $opdracht ."'>" . $opdracht . "</option>";
+							if($opdracht == $_POST["opdrachtnummer"]){
+							    echo "<option value='". $opdracht ."' selected>" . $opdracht . "</option>";
+							} else{
+								echo "<option value='". $opdracht ."'>" . $opdracht . "</option>";
+							}
 						}
 					?>
 				</select>
